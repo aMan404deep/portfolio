@@ -1,0 +1,36 @@
+.contact-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-main{
+    /* height: 400px; */
+    background-color: #131315;
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    color: white;
+    gap: 2rem;
+}
+img{
+    width: 10vw;
+}
+h1{
+    font-size: 4vw;
+}
+button{
+    color: white;
+    background-color: #FF6E31;
+    font-weight: 700;
+    width: 100%;
+    padding: 2vw;
+    font-size: 3vw;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+}

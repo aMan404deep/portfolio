@@ -1,0 +1,111 @@
+.project-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.project-main{
+    width: 95%;
+    border-radius: 2rem;
+    background-color: #131315;
+    padding: 2rem;
+}
+.project-heading h1{
+    color: white;
+    font-size: 4vw;
+}
+.project-data{
+    margin-top: 2rem;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.project-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.project{
+    width: 100%;
+    border-radius: 2rem;
+    height: 50%;
+    background-color: #8A8A93;
+}
+.project-right{
+    border-radius: 2rem;
+    background-color: #8A8A93;
+    width: 50%;
+    height: 100%;
+}
+.dev1, .dev2, .dev3 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.dev1, .dev2, .dev3 a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.dev1 {
+    background-image: url('../assets/dev1.png');
+}
+
+.dev2 {
+    background-image: url('../assets/dev2.png');
+}
+
+.dev3 {
+    background-image: url('../assets/dev3.png');
+}
+
+.dev1:hover, .dev2:hover, .dev3:hover {
+    transition: all .5s ease-in-out;
+    background-size: 110%;
+    cursor: pointer;
+}
+.project-text{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-text a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.project-text{
+    opacity: 0;
+}
+.project-text:hover{
+    opacity: 1;
+    transition: all .8s ease-in-out;
+}
+@media (max-width: 688px){
+    .project-data{
+        flex-direction: column;
+        height: 500px;
+    }
+    .project-right{
+        width: 100%;
+        height: 33.3%;
+        /* height: 100px; */
+    }
+    .project-left{
+        height: 66.6%;
+        width: 100%;
+    }
+    .project-heading h1{
+        font-size: 4vw;
+    }
+}
