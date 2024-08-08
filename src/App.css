@@ -51,3 +51,8 @@ html,body{
 .cursor:hover {
   background-color: rgba(255, 0, 0, 0.7); 
 }
+@media(max-width: 768px){
+  .cursor-container{
+    display: none;
+  }
+}
