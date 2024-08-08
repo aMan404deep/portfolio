@@ -39,6 +39,9 @@ const Navbar = () => {
           >
             Contact
           </Link>
+          <a href="/public/resume.pdf" className="download-resume" download>
+            Download Resume
+          </a>
         </div>
         <div className='nav-hamburger' onClick={toggleMenu}>
           <FontAwesomeIcon icon={isOpen ? faTimes : faBars} />
