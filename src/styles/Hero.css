@@ -77,6 +77,10 @@
     /* padding: 18px; */
     padding: 1vw;
 }
+.hero-right button:hover{
+    background-color: orangered;
+    transition: all .3s ease-in-out;
+}
 
 @media (max-width: 688px){
     .hero-right{

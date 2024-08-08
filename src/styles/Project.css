@@ -68,7 +68,7 @@
 }
 
 .dev1:hover, .dev2:hover, .dev3:hover {
-    transition: all .5s ease-in-out;
+    transition: all .8s ease-in-out;
     background-size: 110%;
     cursor: pointer;
 }
@@ -84,13 +84,13 @@
     color: white;
     text-align: center;
 }
-.project-text{
+/* .project-text{
     opacity: 0;
 }
 .project-text:hover{
     opacity: 1;
     transition: all .8s ease-in-out;
-}
+} */
 @media (max-width: 688px){
     .project-data{
         flex-direction: column;
@@ -99,7 +99,6 @@
     .project-right{
         width: 100%;
         height: 33.3%;
-        /* height: 100px; */
     }
     .project-left{
         height: 66.6%;

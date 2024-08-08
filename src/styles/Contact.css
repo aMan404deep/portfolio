@@ -34,3 +34,7 @@ button{
     border-radius: 999px;
     cursor: pointer;
 }
+button:hover{
+    background-color: orangered;
+    transition: all .3s ease-in-out;
+}
