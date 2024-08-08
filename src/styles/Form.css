@@ -94,7 +94,6 @@
 }
 .submit-text:hover {
     cursor: pointer;
-    color: #FF6E31;
 }
 .submit-button{
     background-color: #000000;
@@ -104,6 +103,7 @@
     padding: 0;
 }
 .submit-button:hover{
+    background-color: #000000;
     color: #FF6E31;
 }
 

@@ -35,7 +35,6 @@
     display: none;
     cursor: pointer;
   }
-  
   @media (max-width: 768px) {
     .nav-content {
       display: none;
