@@ -11,6 +11,15 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/resume.pdf'; // Directly point to the file in the public folder
+    link.download = 'resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className='nav-container'>
       <div className='navbar'>
@@ -39,7 +48,7 @@ const Navbar = () => {
           >
             Contact
           </Link>
-          <a href="../assets/resume.pdf" className="download-resume" download = "resume.pdf">
+          <a onClick={handleDownload} className="download-resume">
             Download Resume
           </a>
         </div>
