@@ -39,7 +39,7 @@ const Navbar = () => {
           >
             Contact
           </Link>
-          <a href="/public/resume.pdf" className="download-resume" download>
+          <a href="../assets/resume.pdf" className="download-resume" download = "resume.pdf">
             Download Resume
           </a>
         </div>
