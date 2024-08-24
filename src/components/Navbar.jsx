@@ -13,7 +13,7 @@ const Navbar = () => {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/public/amandeepresume.pdf'; // Directly point to the file in the public folder
+    link.href = '/amandeepresume.pdf'; // Directly point to the file in the public folder
     link.download = 'amandeepresume.pdf';
     document.body.appendChild(link);
     link.click();
