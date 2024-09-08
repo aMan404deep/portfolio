@@ -41,15 +41,19 @@
     background-color: #8A8A93;
     width: 50%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #131315;
 }
-.dev1, .dev2, .dev3 {
+.dev1, .dev2, .dev3 , .dev4 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100%;
     width: 100%;
 }
-.dev1, .dev2, .dev3 a{
+.dev1, .dev2, .dev3, .dev4 a{
     text-decoration: none;
     color: white;
     text-align: center;
@@ -66,8 +70,10 @@
 .dev3 {
     background-image: url('../assets/dev3.png');
 }
-
-.dev1:hover, .dev2:hover, .dev3:hover {
+.dev4{
+    background-image: url('../assets/shred.png');
+}
+.dev1:hover, .dev2:hover, .dev3:hover , .dev4:hover{
     transition: all .8s ease-in-out;
     background-size: 110%;
     cursor: pointer;

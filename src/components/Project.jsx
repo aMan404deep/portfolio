@@ -72,6 +72,11 @@ const Project = () => {
                 <h4><a target='_blank' href='https://github.com/aMan404deep/WeatherApp.git'>WeatherUp</a></h4>
               </div>
             </div>
+            <div className='project dev4'>
+              <div className='project-text'>
+                <h4><a target='_blank' href='https://github.com/aMan404deep/Fitness'>Shred</a></h4>
+              </div>
+            </div>
           </motion.div>
         </div>
       </div>
